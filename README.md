@@ -1,5 +1,6 @@
 # Hansen's Superior Predictive Ability (SPA) Test
 This Python project implements Hansen's Superior Predictive Ability (SPA) Test, a statistical test for evaluating the performance of multiple strategies against a null hypothesis. The SPA test adjusts for the correlation structure between strategies and accounts for multiple comparisons, identifying statistically significant outperforming strategies.
+This version doesn't use bootstrapping and uses a loglog correction.
 
 ## Features
 - Calculates Sharpe ratios for multiple strategies based on their log returns.

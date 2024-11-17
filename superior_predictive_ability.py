@@ -10,6 +10,7 @@ def superior_predictive_ability(log_returns_df: pd.DataFrame, risk_free_rate: fl
     The SPA test evaluates the predictive performance of multiple strategies by comparing their
     Sharpe ratios against a specified null Sharpe ratio, accounting for correlation between strategies.
     It adjusts for multiple comparisons and identifies strategies with statistically significant out-performance.
+    This version doesn't use bootstrapping and uses a loglog correction.
 
     Args:
     log_returns_df (pd.DataFrame) : DataFrame of log returns, where each column represents a strategy and
