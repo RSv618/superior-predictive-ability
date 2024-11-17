@@ -28,7 +28,7 @@ pip install numpy pandas scipy
 2. Running the Test
 Use the following steps to run the SPA test:
     ```
-    python hansen_spa.py
+    python superior_predictive_ability.py
     ```
     The script reads the log returns data from log_returns_matrix.csv and performs the SPA test with default parameters.
 3. The output will list statistically significant strategies or indicate if none were found.
