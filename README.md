@@ -25,8 +25,7 @@ pip install numpy pandas scipy
 
 ## Usage
 1. Prepare a CSV file containing log returns for multiple strategies. Each column should represent a strategy, and each row should represent a time period. Ensure the index is a timestamp or sequential period identifier.
-2. Running the Test
-Use the following steps to run the SPA test:
+2. Use the following code to run the SPA test:
     ```
     python superior_predictive_ability.py
     ```
