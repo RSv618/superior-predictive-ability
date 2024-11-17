@@ -20,7 +20,7 @@ To install the required libraries, run:
 pip install numpy pandas scipy
 ```
 ### Files
-- hansen_spa.py: Main Python script implementing the SPA test.
+- superior_predictive_ability.py: Main Python script implementing the SPA test.
 - log_returns_matrix.csv: Sample dataset containing log returns for various strategies.
 
 ## Usage
